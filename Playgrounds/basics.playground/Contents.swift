@@ -24,6 +24,15 @@ for x in mySecondDict.keys {
 var optionalStr: String? = nil
 var greeting = "Hello!"
 
+
+// Ternary Coalescent Operator
+let defaultVal = "Munge"
+var someVal: String? = nil
+var defaultIfNotNil = someVal ?? defaultVal  // Note: the result is not optional here
+
+
+
+
 // Try to assign the constant variable name the value of optionalStr
 // If there's no value then name doesn't exist?
 if let name = optionalStr {
@@ -152,6 +161,95 @@ do {
 } catch nameCheckErrors.NotAJohnson {
     print("HE IS NOT A JOHNSON - SHAME")
 }
+
+
+print("\r\r\r")
+// --- Generics --- //
+protocol Breathable {
+    func breathe()
+}
+
+protocol Mammal : Breathable, CustomStringConvertible {
+    var name: String { get set }
+    var gender: Gender { get set}
+    var noiseAction: String { get }
+    func think()
+    func die()
+}
+
+enum Gender {
+    case Male
+    case Female
+}
+
+struct Dog : Mammal {
+    var name: String
+    var gender: Gender
+    var isHappy: Bool = true
+    var noiseAction: String {
+        get {
+            return "barks"
+        }
+    }
+    func breathe() {}
+    func think() {}
+    func die() {}
+    
+}
+
+struct Human : Mammal {
+    var name: String
+    var gender: Gender
+    var isHappy: Bool = true
+    var noiseAction: String {
+        get {
+            return "says"
+        }
+    }
+    func breathe() {}
+    func think() {}
+    func die() {}
+}
+
+
+struct Couple {
+    var participants: [Mammal] = []
+}
+
+extension Mammal {
+    func makeNoise<T: Mammal>(myMammal: T, noise: String="nothing") {
+        print("\(myMammal) \(myMammal.noiseAction) \(noise)")
+    }
+    
+    var description: String {
+        get {
+            return self.name
+        }
+    }
+}
+
+let manuel: Human = Human(name: "Manuel", gender: .Male, isHappy: true)
+let miguel: Human = Human(name: "Miguel", gender: .Male, isHappy: false)
+let susan: Human = Human(name: "Susan", gender: .Female, isHappy: true)
+let barkles: Dog = Dog(name: "Barkles", gender: .Female, isHappy: true)
+
+let bigFamily: Couple = Couple(participants: [manuel, miguel, susan, barkles])
+
+// Downcast and pass type to generic
+for mammal in bigFamily.participants {
+    if let mammal: Mammal = mammal {
+        switch mammal {
+        case let humie as Human:
+           humie.makeNoise(humie, noise: "Howdy")
+        case let pup as Dog:
+           pup.makeNoise(pup, noise: "woof")
+        default:
+            continue
+        }
+
+    }
+}
+
 
 
 
