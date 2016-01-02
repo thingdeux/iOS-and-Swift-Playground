@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776110BE1C36D4780020E182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776110BD1C36D4780020E182 /* AppDelegate.swift */; };
+		776110C01C36D4780020E182 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776110BF1C36D4780020E182 /* ViewController.swift */; };
+		776110C31C36D4780020E182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776110C11C36D4780020E182 /* Main.storyboard */; };
+		776110C51C36D4780020E182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776110C41C36D4780020E182 /* Assets.xcassets */; };
+		776110C81C36D4780020E182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776110C61C36D4780020E182 /* LaunchScreen.storyboard */; };
+		776110D01C36D52A0020E182 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776110CF1C36D52A0020E182 /* Question.swift */; };
+		776110D41C37AEC40020E182 /* BaseProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776110D31C37AEC40020E182 /* BaseProtocolExtensions.swift */; };
+		776110D61C37B2A20020E182 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776110D51C37B2A20020E182 /* AnswerViewController.swift */; };
+		776110D81C37B7750020E182 /* Prefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 776110D71C37B7750020E182 /* Prefs.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		776110BA1C36D4780020E182 /* VidjoGameTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidjoGameTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776110BD1C36D4780020E182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		776110BF1C36D4780020E182 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		776110C21C36D4780020E182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776110C41C36D4780020E182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776110C71C36D4780020E182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776110C91C36D4780020E182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776110CF1C36D52A0020E182 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		776110D31C37AEC40020E182 /* BaseProtocolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProtocolExtensions.swift; sourceTree = "<group>"; };
+		776110D51C37B2A20020E182 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		776110D71C37B7750020E182 /* Prefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Prefs.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776110B71C36D4780020E182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776110B11C36D4780020E182 = {
+			isa = PBXGroup;
+			children = (
+				776110D71C37B7750020E182 /* Prefs.plist */,
+				776110BC1C36D4780020E182 /* VidjoGameTrivia */,
+				776110BB1C36D4780020E182 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		776110BB1C36D4780020E182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776110BA1C36D4780020E182 /* VidjoGameTrivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776110BC1C36D4780020E182 /* VidjoGameTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				776110BD1C36D4780020E182 /* AppDelegate.swift */,
+				776110BF1C36D4780020E182 /* ViewController.swift */,
+				776110C11C36D4780020E182 /* Main.storyboard */,
+				776110C41C36D4780020E182 /* Assets.xcassets */,
+				776110C61C36D4780020E182 /* LaunchScreen.storyboard */,
+				776110C91C36D4780020E182 /* Info.plist */,
+				776110CF1C36D52A0020E182 /* Question.swift */,
+				776110D31C37AEC40020E182 /* BaseProtocolExtensions.swift */,
+				776110D51C37B2A20020E182 /* AnswerViewController.swift */,
+			);
+			path = VidjoGameTrivia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776110B91C36D4780020E182 /* VidjoGameTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776110CC1C36D4780020E182 /* Build configuration list for PBXNativeTarget "VidjoGameTrivia" */;
+			buildPhases = (
+				776110B61C36D4780020E182 /* Sources */,
+				776110B71C36D4780020E182 /* Frameworks */,
+				776110B81C36D4780020E182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidjoGameTrivia;
+			productName = VidjoGameTrivia;
+			productReference = 776110BA1C36D4780020E182 /* VidjoGameTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776110B21C36D4780020E182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Josh.Land;
+				TargetAttributes = {
+					776110B91C36D4780020E182 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JFF7TCRQZ7;
+					};
+				};
+			};
+			buildConfigurationList = 776110B51C36D4780020E182 /* Build configuration list for PBXProject "VidjoGameTrivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776110B11C36D4780020E182;
+			productRefGroup = 776110BB1C36D4780020E182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776110B91C36D4780020E182 /* VidjoGameTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776110B81C36D4780020E182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776110D81C37B7750020E182 /* Prefs.plist in Resources */,
+				776110C81C36D4780020E182 /* LaunchScreen.storyboard in Resources */,
+				776110C51C36D4780020E182 /* Assets.xcassets in Resources */,
+				776110C31C36D4780020E182 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776110B61C36D4780020E182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776110D41C37AEC40020E182 /* BaseProtocolExtensions.swift in Sources */,
+				776110D01C36D52A0020E182 /* Question.swift in Sources */,
+				776110D61C37B2A20020E182 /* AnswerViewController.swift in Sources */,
+				776110C01C36D4780020E182 /* ViewController.swift in Sources */,
+				776110BE1C36D4780020E182 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		776110C11C36D4780020E182 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776110C21C36D4780020E182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776110C61C36D4780020E182 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776110C71C36D4780020E182 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776110CA1C36D4780020E182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		776110CB1C36D4780020E182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776110CD1C36D4780020E182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VidjoGameTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = land.josh.VidjoGameTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		776110CE1C36D4780020E182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VidjoGameTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = land.josh.VidjoGameTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776110B51C36D4780020E182 /* Build configuration list for PBXProject "VidjoGameTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776110CA1C36D4780020E182 /* Debug */,
+				776110CB1C36D4780020E182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776110CC1C36D4780020E182 /* Build configuration list for PBXNativeTarget "VidjoGameTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776110CD1C36D4780020E182 /* Debug */,
+				776110CE1C36D4780020E182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776110B21C36D4780020E182 /* Project object */;
+}

@@ -74,6 +74,9 @@ for (key, value) in interestingNUmbers {
     }
 }
 
+let blah: Dictionary<String, Int> = ["Josh": 12]
+
+
 print(largest)
 
 
@@ -265,5 +268,31 @@ extension Array {
         
         return self[randLocation]
     }
+}
+
+
+enum JSONError: String, ErrorType {
+    case NoData = "ERROR: no data"
+    case ConversionFailed = "ERROR: conversion from JSON failed"
+}
+
+func getTwitchResponse() {
+    let urlPath = "https://api.twitch.tv/kraken/games/top/"
+    guard let endpoint = NSURL(string: urlPath) else { print("Error creating endpoint");return }
+    let request = NSMutableURLRequest(URL:endpoint)
+    
+    NSURLSession.sharedSession().dataTaskWithRequest(request) {
+        (data, response, error) -> Void in
+        
+        do {
+            guard let dat = data else { throw JSONError.NoData }
+            guard let json = try NSJSONSerialization.JSONObjectWithData(dat, options: []) as? NSDictionary else { throw JSONError.ConversionFailed }
+            print(json)
+        } catch let error as JSONError {
+            print(error.rawValue)
+        } catch {
+            print(error)
+        }
+        }.resume()
 }
 

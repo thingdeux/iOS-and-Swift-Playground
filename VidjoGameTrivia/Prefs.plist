@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>rightAnswer</key>
+			<integer>3</integer>
+			<key>answer4</key>
+			<string>A Plumber</string>
+			<key>answer3</key>
+			<string>A Courier</string>
+			<key>answer2</key>
+			<string>A Metalsmith</string>
+			<key>answer1</key>
+			<string>A Bounty Hunter</string>
+			<key>question</key>
+			<string>What was the job of the main character in Fallout 3 New Vegas?</string>
+		</dict>
+		<dict>
+			<key>rightAnswer</key>
+			<integer>2</integer>
+			<key>answer4</key>
+			<string>Snake Man</string>
+			<key>answer3</key>
+			<string>Youda Man</string>
+			<key>answer2</key>
+			<string>Wood Man</string>
+			<key>answer1</key>
+			<string>Snow Man</string>
+			<key>question</key>
+			<string>Which of these was a boss in Mega Man 2?</string>
+		</dict>
+		<dict>
+			<key>rightAnswer</key>
+			<integer>3</integer>
+			<key>answer4</key>
+			<string>Tellah</string>
+			<key>answer3</key>
+			<string>Palom</string>
+			<key>answer2</key>
+			<string>Kain</string>
+			<key>answer1</key>
+			<string>Cecel</string>
+			<key>question</key>
+			<string>Which character was a twin in Final Fantasy II?</string>
+		</dict>
+		<dict>
+			<key>rightAnswer</key>
+			<integer>4</integer>
+			<key>answer4</key>
+			<string>Warren Spector</string>
+			<key>answer3</key>
+			<string>JC Denton</string>
+			<key>answer2</key>
+			<string>Matt Rix</string>
+			<key>answer1</key>
+			<string>Shigeru Miyamoto</string>
+			<key>question</key>
+			<string>Which of these people was a game designer for Deus Ex?</string>
+		</dict>
+		<dict>
+			<key>answer4</key>
+			<string>Tower Bux</string>
+			<key>answer3</key>
+			<string>Ethereal Shard</string>
+			<key>answer2</key>
+			<string>Duck of Doom</string>
+			<key>answer1</key>
+			<string>Stone of Jordan</string>
+			<key>question</key>
+			<string>Which of these items was commonly used as currency in Diablo 2?</string>
+			<key>rightAnswer</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>rightAnswer</key>
+			<integer>1</integer>
+			<key>answer4</key>
+			<string>Infiltration</string>
+			<key>answer3</key>
+			<string>Daigo Umehara</string>
+			<key>answer2</key>
+			<string>Snake Eyez</string>
+			<key>answer1</key>
+			<string>Kazunoko</string>
+			<key>question</key>
+			<string>Who won Capcom Cup 2015?</string>
+		</dict>
+	</array>
+</dict>
+</plist>
